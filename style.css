@@ -9,6 +9,7 @@ body {
     font-size: 0px;
     margin: 0;
     padding: 0;
+    background-color: rgb(235, 86, 32);
 }
 
 .link {
@@ -18,7 +19,7 @@ body {
 }
 
 .nav-list {
-    background-color: rgb(235, 86, 32);
+    /* background-color: rgb(235, 86, 32); */
     display: inline-block;
     position: relative;
     padding: 20px;
@@ -53,7 +54,7 @@ body {
     display: none;
     position: absolute;
     left: 190px;
-    top: 124px;
+    top: 125px;
 }
 
 .nav-web-list:hover .nav-tutorials-menu {
@@ -74,7 +75,7 @@ body {
     display: none;
     position: absolute;
     left: 190px;
-    top: 124px;
+    top: 125px;
 }
 
 .nav-tutorials-list:hover .nav-other-menu {

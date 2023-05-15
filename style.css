@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+body {
+    background-color: #d3cfcf;
+}
+
+.nav-menu {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-list {
+    background-color: rgb(235, 86, 32);
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+}
+
+.nav-list:hover {
+    background-color: rgb(163, 60, 22);
+}
+
+.nav-web-menu {
+    display: none;
+    position: absolute;
+    left: -40px;
+    top: 62px;
+}
+
+.nav-list:hover .nav-web-menu {
+    display: block;
+}
+
+.nav-web-list {
+    background-color: rgb(235, 86, 32);
+    padding: 20px;
+    width: 150px;
+}
+
+.nav-web-list:hover {
+    background-color: rgb(163, 60, 22);
+}
+
+.nav-tutorials-menu {
+    display: none;
+    position: absolute;
+    left: 190px;
+    top: 124px;
+}
+
+.nav-web-list:hover .nav-tutorials-menu {
+    display: block;
+}
+
+.nav-tutorials-list {
+    background-color: rgb(235, 86, 32);
+    padding: 20px;
+    width: 150px;
+}
+
+.nav-tutorials-list:hover {
+    background-color: rgb(163, 60, 22);
+}
+
+.nav-other-menu {
+    display: none;
+    position: absolute;
+    left: 190px;
+    top: 124px;
+}
+
+.nav-tutorials-list:hover .nav-other-menu {
+    display: block;
+}
+
+.nav-other-list {
+    background-color: rgb(235, 86, 32);
+    padding: 20px;
+    width: 150px;
+}
+
+.nav-other-list:hover {
+    background-color: rgb(163, 60, 22);
+}
+
